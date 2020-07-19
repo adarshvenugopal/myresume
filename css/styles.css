@@ -1,0 +1,220 @@
+/* HTML tag styles */
+body {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.contact a, .footer a {
+  transition: all .3s ease-in-out;
+}
+
+.contact a:hover, .footer a:hover {
+  box-shadow: 5px 5px 5px #212121;
+}
+
+/* Generic Styles */
+#heading, #experiences {
+  background-color: #E0EBE8;
+}
+
+#contact, #footer {
+  background-color: #c5ded7;
+}
+
+.heading {
+  padding: 100px 100px 0;
+}
+
+.profile, .experiences, .abilities, .contact {
+  padding: 100px;
+}
+
+/* Navigation section */
+.topnav {
+  overflow: hidden;
+  background-color: #E0EBE8;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Header Section */
+.left-cloud, .title, .right-cloud {
+  display: inline-block;
+}
+
+.left-cloud {
+  position: absolute;
+  top: 300px;
+  left: 250px;
+}
+
+.right-cloud {
+  position: absolute;
+  top: 100px;
+  right: 250px;
+}
+
+.big-title {
+  font-family: 'Courgette', cursive;
+  font-size: 4.5rem;
+  color: #45b29a;
+  margin-bottom: 25px;
+}
+
+.small-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #45b29a;
+  margin-bottom: 25px;
+}
+
+.title-img {
+  margin-top: 31px;
+  display: block;
+}
+
+/* Profile Section */
+.profile-div {
+  margin: auto;
+}
+
+.profile-img {
+  display: inline-block;
+  margin-right: 50px;
+  margin-bottom: 95px;
+  width: 20%;
+}
+
+.profile-content {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  text-align: left;
+  line-height: 1.5;
+  width: 44%;
+}
+
+/* Experiences Section */
+.experience-title, .abilities-title, .contact-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #45b29a;
+  margin-bottom: 50px;
+}
+
+.education-title, .career-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #45b29a;
+  text-align: left;
+}
+
+.edu-item, .career-item {
+  display: flex;
+  align-items: center;
+  padding: 2% 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.edu-univ, .career-company {
+  display: inline-block;
+  width: 20%;
+  color: #394989;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.company-para, .edu-para {
+  margin: 0;
+}
+
+.edu-desc, .career-desc {
+  display: inline-block;
+  width: 79%;
+  text-align: left;
+  color: #006a71;
+}
+
+/* Abilities section */
+.skills {
+  width: -webkit-fill-available;
+  display: inline-block;
+}
+
+.skill-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #45b29a;
+  text-align: center;
+}
+
+.skill-items {
+  display: inline-grid;
+  padding: 2% 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  list-style: none;
+}
+
+.skill-item {
+  display: inline-flex;
+  color: #394989;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 10px;
+}
+
+.like-icon {
+  margin-right: 5px;
+}
+
+/* Contact Section */
+.contact-icon {
+  margin: 2%;
+  text-decoration: none;
+  color: #394989;
+}
+
+/* Footer Section */
+.footer-content {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  color: #45b29a;
+}
+
+.footer-link {
+  text-decoration: none;
+}
